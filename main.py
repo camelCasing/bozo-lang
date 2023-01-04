@@ -86,7 +86,7 @@ def run_code(code):
                 elif first == "win" or first == "cmd" or first == "sys":
                     cmd = str(line).lstrip(first).lstrip(" ")
                     os.system(cmd)
-                elif first == "wait" or first == "sleep" or first == "pause" or first == "stop":
+                elif first == "wait" or first == "sleep" or first == "pause":
                     time.sleep(float(debug_check(withoutfirst)))
                 else:
                     if first in functions:          
