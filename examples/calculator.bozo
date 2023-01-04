@@ -1,0 +1,2 @@
+set user = input
+print user + 0
