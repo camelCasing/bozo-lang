@@ -1,0 +1,11 @@
+set mytimer = 30
+set interval = 0.1
+
+func countdown
+set mytimer = mytimer - 1
+wait interval
+print mytimer
+countdown
+end
+
+countdown
